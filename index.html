@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+	
+</head>
+<body>
+    <div class="container">
+	<div class="welcome" id="welcome">
+	<center>
+	<h3>welcome </h3>
+	<input type="text" placeholder="enter your name" id="name"><br><br>
+	<p id = "validation"></p><br>
+	<button onclick="enter()" id="enter">ENTER</button>
+	</center>
+	</div>
+	<div class="game" id="game">
+	<center>
+        <h3 id="user_name"></h3>
+        <h3>Can you Guess it </h3>
+
+
+            <input type="text" placeholder="Num" id="guess"><br><br>
+			<p id = "valid"></p><br>
+            <button onclick="play()" id="my_btn">GUESS</button>
+
+            <p id="message1">No. of Guesss : 0</p>
+            <p id="message2">Guessed number are : none</p>
+            <p id="message3"></p>
+		
+			</center>
+			</div>
+             </div>
+             
+             <!-- JS IS HERE -->
+    <script src="app.js"></script>
+</body>
+</html>
